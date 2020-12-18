@@ -14,6 +14,7 @@ public class player : MonoBehaviour
     [SerializeField] AudioClip shootSound;
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
 
+    // Projectile Header
     [Header("Projectile")]
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 10f;
